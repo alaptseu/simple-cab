@@ -40,11 +40,13 @@ curl -X DELETE \
 ***Client:***
 
 Doesn't have any maven dependencies, so just build it via maven *mvn clean install* from client root,
-find client-1.0-SNAPSHOT.jar at /target.
+find client-1.0-SNAPSHOT.jar at /target. and run:
 
 java -jar client-1.0-SNAPSHOT.jar
 
 **List of available options**:
+
+**NOTE:** only one option should be used at the same time, see examples below
 
 **-info**  prints how many trips each medalion has made, parameters *date=* for pickup_datetime (in yyyy-MM-dd format) for
   *medallion=* coma separated list of medallion identifications, *ignoreCache=* it is **optional** parameter, *true* to ignore the cache,
