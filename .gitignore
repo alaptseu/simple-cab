@@ -56,3 +56,10 @@ fabric.properties
 /client/client.iml
 /server/server.iml
 /simple-cab.iml
+
+# Mac OS X
+.DS_Store
+
+# IntelliJ files
+*.iml
+*.ipr
