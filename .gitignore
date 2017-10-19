@@ -50,3 +50,9 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+/server/target/
+/client/target/
+/.idea/
+/client/client.iml
+/server/server.iml
+/simple-cab.iml
